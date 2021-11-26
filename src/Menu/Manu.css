@@ -28,3 +28,9 @@ a {
 .buton{
     color: white;
 }
+
+@media screen and (min-width: 310px) {
+    .row>*  {
+     display: none
+    }
+  }

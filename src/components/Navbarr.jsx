@@ -7,7 +7,7 @@ import { Container, Form, FormControl, Nav, Navbar, NavDropdown, Offcanvas } fro
 export const Navbarr = () => {
     return (
         <Navbar bg="light" expand={false}>
-        <Container fluid>
+    
           <Navbar.Brand href="#">REFRESH Artistry</Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Offcanvas
@@ -42,7 +42,7 @@ export const Navbarr = () => {
               </Form>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
-        </Container>
+     
       </Navbar>
     )
 }

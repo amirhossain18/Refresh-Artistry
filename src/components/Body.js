@@ -1,5 +1,6 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+
+import { Navigate, Route, Routes } from 'react-router-dom';
 
 import Menu from '../Menu/Menu';
 import Panjabi from '../Panjabi';
@@ -11,7 +12,7 @@ const Body = () => {
 <Menu/>
 
 <Routes>
-
+<Route path="/" element={< Navigate to="/shari"/>} />
 <Route path="/shari" element={<Shari/>} />
   <Route path="/gohona" element={<Gohona/>} />
   <Route path="/panjabi" element={<Panjabi/>} />

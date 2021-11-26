@@ -1,6 +1,5 @@
 import React from "react"; 
-
-import Footernav from "./components/Footernav";
+import Footernav from "./Footernav";
 
 
 import Home from "./Page/Home";
@@ -12,8 +11,7 @@ const App = () => {
 
    
 
-    
-  <Footernav/>
+     <Footernav/>
     </div>
 };
 
